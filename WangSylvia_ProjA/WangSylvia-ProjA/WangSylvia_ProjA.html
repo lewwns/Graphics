@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ProjectA - Sylvia Wang</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <h2 id="mk">
+
+    </h2>
+
+    <div id=" ">
+      <p>
+        <button type="button" onclick="spin()">Spin </button>
+        <button type="button" onclick="stop()">Stop </button>
+        <button type="button" onclick="reset()">Reset</button>
+      </p>
+    </div>
+
+
+    <div id="instructions">
+      <h3>Instructions:</h3>
+      <h4>
+      <p>Use the left mouse button to let the fish move</p>
+      <p>Press Key 'Enter' to enlarge the eyes of the caterpillar</p>
+      <p>Press Key 'A' to see the horizontal view of the starfish</p>
+      <p>Click "spin" to change the speed of rotation of the objects</p>
+      <p>Click "stop" to stop all the rotation</p>
+      <p>Drag the mouse to move the jellyfish</p>
+      <p>Click "Reset" to reset everything to initial condition</p>
+
+    </h4>
+    </div>
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="../lib/cuon-matrix-quat.js"></script>
+    <script src="WangSylvia_ProjA.js"></script>
+  </body>
+</html>
